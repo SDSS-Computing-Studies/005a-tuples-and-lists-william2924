@@ -26,10 +26,28 @@ Enter a word: virus
 """
 
 print("\n======")
+myList = []
+
 a = str(input(" Enter a word: "))
 b = str(input(" Enter a word: "))
 c = str(input(" Enter a word: "))
 d = str(input(" Enter a word: "))
 e = str(input(" Enter a word: "))
 
-print([str(a)] + [str(b)] + [str(c)] + [str(d)] + [str(e)])
+myList.append(str(a))
+myList.append(str(b))
+myList.append(str(c))
+myList.append(str(d))
+myList.append(str(e))
+
+print(myList)
+print("======")
+
+
+
+
+
+
+
+
+
