@@ -25,15 +25,11 @@ Enter a word: virus
 
 """
 
-print("\n======")
-myList = []
-myList.append(str(input(" Enter a word: ")))
-myList.append(str(input(" Enter a word: ")))
-myList.append(str(input(" Enter a word: ")))
-myList.append(str(input(" Enter a word: ")))
-myList.append(str(input(" Enter a word: ")))
-print(myList)
-print("======")
+List = []
+for i in range(5):#range5-> 0,1,2,3,4
+    a = input().strip()
+    List.append(a)
+print(List)
 
 
 
