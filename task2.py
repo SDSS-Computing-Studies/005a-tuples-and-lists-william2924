@@ -26,10 +26,10 @@ Enter a word: virus
 """
 
 print("\n======")
-a = input(" Enter a word: ").strip()
-b = input(" Enter a word: ").strip()
-c = input(" Enter a word: ").strip()
-d = input(" Enter a word: ").strip()
-e = input(" Enter a word: ").strip()
+a = str(input(" Enter a word: "))
+b = str(input(" Enter a word: "))
+c = str(input(" Enter a word: "))
+d = str(input(" Enter a word: "))
+e = str(input(" Enter a word: "))
 
-print(a,b,c,d,e)
+print([str(a)] + [str(b)] + [str(c)] + [str(d)] + [str(e)])
