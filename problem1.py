@@ -21,7 +21,11 @@ Enter the replacement:Dan
 """
 myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(myList)
-myList.remove("Rick")
-print(myList)
-myList.insert(6, "Dan")
+
+word = str(input("Choose a person from the list to replace: "))
+replace = str(input("Enter the replacement: "))
+
+myList.remove(word)
+myList.insert(6, replace)
+
 print(myList)
