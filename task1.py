@@ -21,14 +21,15 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
-tuple = int(input("Enter a number"))
-myTuple = ('Alpha', 'Baker', "Charlie", "Delta", "Echo","Foxtrot","Golf")
+animal = ('Alpha', 'Baker', "Charlie", "Delta", "Echo","Foxtrot","Golf")
+number = int(input("Enter a number"))
 print("\n======")
-print(myTuple)
-print(" tuple[0] is " + myTuple[0])
-print(" tuple[1] is " + myTuple[1])
-print(" tuple[2] is " + myTuple[2])
-print(" tuple[3] is " + myTuple[3])
-print(" tuple[-1] is " + myTuple[-1])
-print(" tuple[-2] is " + myTuple[-2])
-print(" tuple[-3] is " + myTuple[-3])
+
+print(animal)
+print("string animal[0] is " + animal[0])
+print("string animal[1] is " + animal[1])
+print("string animal[2] is " + animal[2])
+print("string animal[3] is " + animal[3])
+print("string animal[-1] is " + animal[-1])
+print("string animal[-2] is " + animal[-2])
+print("string animal[-3] is " + animal[-3])
