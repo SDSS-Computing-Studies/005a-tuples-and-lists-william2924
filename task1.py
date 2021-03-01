@@ -21,23 +21,15 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
-animal = ('Alpha', 'Baker', "Charlie", "Delta", "Echo","Foxtrot","Golf")
-number = int(input("Enter a number"))
+animal = ('Cat', 'Fish', "Dog", "Bear", "Turtle")
+print('Cat', 'Fish', "Dog", "Bear", "Turtle")
+
+number = input("Enter a number")
 print("\n======")
 
-print(animal)
-if number = 0:
-  print("string animal[0] is " + animal[0])
-  elif number = 1:
-  print("string animal[1] is " + animal[1])
-    elif number = 2:
-    print("string animal[2] is " + animal[2])
-      elif number = 3:
-      print("string animal[3] is " + animal[3])
-        elif number = -1:
-        print("string animal[-1] is " + animal[-1])
-          elif number = -2:
-          print("string animal[-2] is " + animal[-2])
-            else:
-            print("string animal[-3] is " + animal[-3])
-
+print(" string animal[0] is " + str(animal[0]))
+print(" string animal[1] is " + str(animal[1]))
+print(" string animal[2] is " + str(animal[2]))
+print(" string animal[-1] is " + str(animal[-1]))
+print(" string animal[-2] is " + str(animal[-2]))
+print("\n======")
