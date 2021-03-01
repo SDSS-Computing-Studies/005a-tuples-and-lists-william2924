@@ -22,11 +22,11 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 animal = ('Alpha', 'Baker', "Charlie", "Delta", "Echo","Foxtrot","Golf")
-x = int(input("Enter a number"))
+number = int(input("Enter a number"))
 print("\n======")
 
 print(animal)
-if x = 0:
+if number = 0:
   print("string animal[0] is " + animal[0])
   elif number = 1:
   print("string animal[1] is " + animal[1])
