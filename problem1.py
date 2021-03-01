@@ -25,7 +25,8 @@ print(myList)
 word = str(input("Choose a person from the list to replace: "))
 replace = str(input("Enter the replacement: "))
 
+dCount = myList.count(replace)
 myList.remove(word)
-myList.insert(6, replace)
+myList.insert(int(dCount), str(replace))
 
 print(myList)
