@@ -19,14 +19,17 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+print("\n======")
+
 myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(myList)
 
 word = str(input("Choose a person from the list to replace: "))
 replace = str(input("Enter the replacement: "))
 
-dCount = myList.count(replace)
+dIndex = myList.index(word)
 myList.remove(word)
-myList.insert(int(dCount), str(replace))
+myList.insert(dIndex, str(replace))
 
 print(myList)
+print("======")
