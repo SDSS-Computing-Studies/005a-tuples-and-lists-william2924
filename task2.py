@@ -22,4 +22,14 @@ Enter a word: shingle
 Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
+
 """
+
+print("\n======")
+a = input(" Enter a word: ").strip()
+b = input(" Enter a word: ").strip()
+c = input(" Enter a word: ").strip()
+d = input(" Enter a word: ").strip()
+e = input(" Enter a word: ").strip()
+
+print(a,b,c,d,e)
