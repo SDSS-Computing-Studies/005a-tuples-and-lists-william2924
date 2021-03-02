@@ -28,14 +28,13 @@ print("\n======")
 myList = []
 count = int(input("Enter an integer: ").strip())
 
-while True:
-    print(count, flush = True)
-    number = count
-    myList.insert(number)
+while count >= 0:
+    count = int(input("Enter an integer: ").strip())
+    myList.insert(count, count)
     if count < 0:
         break
 
 myList.sort()
-print(" The largest number you entered is " + myList[-1])
+print(" The largest number you entered is " + str(myList[-1]))
 
 print("======")
